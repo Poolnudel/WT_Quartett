@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Bungee;
+    src: url(../font/Bungee/Bungee-Regular.ttf);
+}
+
+@font-face {
+    font-family: Syncopate;
+    src: url(../font/Syncopate/Syncopate-Regular.ttf);
+}
+
+@font-face {
+    font-family: Syncopate-bold;
+    src: url(../font/Syncopate/Syncopate-Bold.ttf);
+}
+
+body {
+    background-color: rgb(80, 80, 80);
+    font-family: Syncopate-bold;
+}

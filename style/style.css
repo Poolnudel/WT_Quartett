@@ -2,21 +2,75 @@
     font-family: Bungee;
     src: url(../font/Bungee/Bungee-Regular.ttf);
 }
+
 @font-face {
     font-family: Syncopate;
     src: url(../font/Syncopate/Syncopate-Regular.ttf);
 }
+
 @font-face {
     font-family: Syncopate-bold;
     src: url(../font/Syncopate/Syncopate-Bold.ttf);
 }
+
 body {
     background-color: rgb(80, 80, 80);
-}
-#titel {
-    text-align: center;
-    margin-top: 5%;
     font-family: Syncopate-bold;
-    font-size: 200%;
+}
+
+.titel {
+    text-align: center;
+    margin-top: 2.5%;
+    font-size: 150%;
     font-weight: bold;
 }
+
+.UI_Elemente {
+    width: 96%;
+    float: left;
+    display: inline-flex;
+    margin: 2%;
+}
+
+.UI_Sammlung,
+.UI_Vorschau,
+.UI_Ansicht {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    padding: 20px;
+    background: #eee;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.UI_Ansicht {
+    margin-right: 0;
+}
+
+
+/*
+
+.UI_Sammlung,
+.UI_Vorschau,
+.UI_Ansicht {
+    padding-left: 16%;
+    padding-right: 16%;
+    float: inherit;
+    width: 32%;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
+#UI_Sammlung {
+    float: inherit;
+}
+#UI_Vorschau {
+    float: inherit;
+}
+#UI_Ansicht {
+    float: inherit;
+}
+*/
