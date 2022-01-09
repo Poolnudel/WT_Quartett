@@ -1,10 +1,22 @@
+@font-face {
+    font-family: Bungee;
+    src: url(../font/Bungee/Bungee-Regular.ttf);
+}
+@font-face {
+    font-family: Syncopate;
+    src: url(../font/Syncopate/Syncopate-Regular.ttf);
+}
+@font-face {
+    font-family: Syncopate-bold;
+    src: url(../font/Syncopate/Syncopate-Bold.ttf);
+}
 body {
     background-color: rgb(80, 80, 80);
 }
 #titel {
     text-align: center;
     margin-top: 5%;
-    font-family: ;
+    font-family: Syncopate-bold;
     font-size: 200%;
     font-weight: bold;
 }
