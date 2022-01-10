@@ -25,6 +25,16 @@ body {
     font-weight: bold;
 }
 
+a:link,
+a:visited {
+    color: black;
+}
+
+a:hover,
+a:active {
+    color: hotpink;
+}
+
 .UI_Elemente {
     width: 96%;
     float: left;

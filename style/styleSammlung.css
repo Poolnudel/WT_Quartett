@@ -17,3 +17,21 @@ body {
     background-color: rgb(80, 80, 80);
     font-family: Syncopate-bold;
 }
+
+.titel {
+    text-align: center;
+    margin-top: 2.5%;
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+a:hover,
+a:active {
+    color: hotpink;
+}
